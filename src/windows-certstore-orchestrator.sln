@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "windows-certstore-orchestrator", "windows-certstore-orchestrator\windows-certstore-orchestrator.csproj", "{89D47CAD-9E92-48F4-A353-E08B5BB1A527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89D47CAD-9E92-48F4-A353-E08B5BB1A527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D47CAD-9E92-48F4-A353-E08B5BB1A527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D47CAD-9E92-48F4-A353-E08B5BB1A527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D47CAD-9E92-48F4-A353-E08B5BB1A527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {142176C7-25E9-40A8-AD49-D078B980BA94}
+	EndGlobalSection
+EndGlobal

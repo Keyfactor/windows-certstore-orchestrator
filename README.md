@@ -58,21 +58,3 @@ Open the Keyfactor Windows Agent Configuration Wizard and perform the tasks as i
 ![](images/kf-agent-config-6.png)
 
 - If the Keyfactor Agent Configuration Wizard configured everything correctly, you should see the dialog above.
-
-
-**3. Create an IIS With Binding Certificate Store within Keyfactor Command**
-
-In Keyfactor Command create a new Certificate Store similar to the one below, selecting IIS With Binding as the Category and the parameters as described in &quot;Create the New Certificate Store Type for the New IIS-With-Bindings AnyAgent&quot;.
-
-![](images/cert-store-config.png)
-
-####STORE CONFIGURATION 
-CONFIG ELEMENT	|DESCRIPTION
-----------------|---------------
-Category	|The type of certificate store to be configured. Select category based on the display name configured above.
-Container	|This is a logical grouping of like stores. This configuration is optional and does not impact the functionality of the store.
-Client Machine	|The hostname of the server to be managed. The Change Credentials option must be clicked to provide a username and password. This account will be used to manage the remote server via PowerShell.
-Store Path	| Enter (or Select) the Certificate Store Name from the certlm.msc console to be managed. 
-spnwithport | true or false.  This configuration may not appear depending on your solutions configuration.  It is optional and the default value is false. 
-Orchestrator	|This is the orchestrator server registered with the appropriate capabilities to manage this certificate store type. 
-Inventory Schedule	|The interval that the system will use to report on what certificates are currently in the store. 
